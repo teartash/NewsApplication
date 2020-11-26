@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="section">section</string>
+    <string name="title">title</string>
+    <string name="published_date">published date</string>
+    <string name="short_news">short news</string>
+    <string name="byline">byline</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="image">image</string>
+    <string name="most_popular">Most popular of the </string>
+    <string name="new_york_times">The New York Times</string>
+    <string name="text_no_connectivity">Offline</string>
+    <string name="text_connectivity">Back Online</string>
+    <string name="load_error">Result could not be loaded</string>
+    <string name="retry">Retry</string>
+    <string-array name="periods">
+        <item>day</item>
+        <item>week</item>
+        <item>month</item>
+    </string-array>
+    <string name="day">day</string>
+    <string name="week">week</string>
+    <string name="month">month</string>
+    <string name="see_all">see all</string>
+</resources>

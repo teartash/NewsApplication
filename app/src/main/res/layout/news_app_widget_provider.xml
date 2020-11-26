@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorWhite"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/top_nyt"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/new_york_times"
+        android:textStyle="bold"
+        android:fontFamily="@font/pt_serif"
+        android:textSize="14sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/see_all"
+        android:fontFamily="@font/pt_serif"
+        android:layout_alignParentEnd="true"/>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_widget"
+        android:layout_below="@+id/top_nyt"/>
+
+</RelativeLayout>
