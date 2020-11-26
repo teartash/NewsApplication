@@ -82,7 +82,7 @@ class NewsRemoteViewsFactory(
                 e.printStackTrace()
             }
         } else {
-            row.setImageViewResource(R.id.image_widget, R.drawable.ic_nt)
+            row.setImageViewResource(R.id.image_widget, R.drawable.ic_ny)
         }
 
         val fillIntent = Intent()
