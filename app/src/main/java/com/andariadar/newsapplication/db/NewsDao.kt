@@ -1,11 +1,11 @@
-package com.andariadar.newsapplication.model.dao
+package com.andariadar.newsapplication.db
 
 import androidx.paging.PagingSource
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.andariadar.newsapplication.model.entity.News
+import com.andariadar.newsapplication.model.News
 
 @Dao
 interface NewsDao {

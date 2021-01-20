@@ -1,4 +1,4 @@
-package com.andariadar.newsapplication.viewmodel
+package com.andariadar.newsapplication.ui
 
 import android.util.Log
 import androidx.hilt.Assisted

@@ -1,12 +1,9 @@
-package com.andariadar.newsapplication.converters
+package com.andariadar.newsapplication.db.converters
 
 import androidx.room.TypeConverter
-import com.andariadar.newsapplication.model.entity.Media
-import com.andariadar.newsapplication.model.entity.News
+import com.andariadar.newsapplication.model.Media
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import org.json.JSONArray
-import org.json.JSONObject
 
 class Converters {
     @TypeConverter

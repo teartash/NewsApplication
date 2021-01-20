@@ -3,7 +3,7 @@ package com.andariadar.newsapplication.service
 import android.content.Intent
 import android.widget.RemoteViewsService
 import com.andariadar.newsapplication.db.NewsDatabase
-import com.andariadar.newsapplication.ui.adapter.NewsRemoteViewsFactory
+import com.andariadar.newsapplication.adapter.NewsRemoteViewsFactory
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.InternalCoroutinesApi
 import javax.inject.Inject

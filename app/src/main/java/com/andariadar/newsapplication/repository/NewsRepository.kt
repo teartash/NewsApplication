@@ -5,7 +5,7 @@ import androidx.paging.PagingConfig
 import androidx.paging.liveData
 import com.andariadar.newsapplication.data.RemoteMediator
 import com.andariadar.newsapplication.db.NewsDatabase
-import com.andariadar.newsapplication.model.api.NewsApi
+import com.andariadar.newsapplication.api.NewsApi
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import javax.inject.Inject
 import javax.inject.Singleton

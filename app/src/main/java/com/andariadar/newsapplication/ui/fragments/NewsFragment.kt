@@ -17,13 +17,13 @@ import androidx.paging.LoadState
 import androidx.recyclerview.widget.RecyclerView
 import com.andariadar.newsapplication.R
 import com.andariadar.newsapplication.databinding.FragmentNewsBinding
-import com.andariadar.newsapplication.model.entity.News
-import com.andariadar.newsapplication.ui.adapter.NewsPagingAdapter
+import com.andariadar.newsapplication.model.News
+import com.andariadar.newsapplication.adapter.NewsPagingAdapter
 import com.andariadar.newsapplication.utils.NetworkUtils
 import com.andariadar.newsapplication.utils.getColorRes
 import com.andariadar.newsapplication.utils.hide
 import com.andariadar.newsapplication.utils.show
-import com.andariadar.newsapplication.viewmodel.NewsViewModel
+import com.andariadar.newsapplication.ui.NewsViewModel
 import com.google.android.material.chip.Chip
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi

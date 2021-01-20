@@ -1,10 +1,10 @@
-package com.andariadar.newsapplication.model.entity
+package com.andariadar.newsapplication.model
 
 import android.os.Parcelable
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import androidx.room.TypeConverters
-import com.andariadar.newsapplication.converters.Converters
+import com.andariadar.newsapplication.db.converters.Converters
 import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.Parcelize
 

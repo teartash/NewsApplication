@@ -6,8 +6,8 @@ import androidx.paging.LoadType
 import androidx.paging.PagingState
 import androidx.paging.RemoteMediator
 import com.andariadar.newsapplication.db.NewsDatabase
-import com.andariadar.newsapplication.model.api.NewsApi
-import com.andariadar.newsapplication.model.entity.News
+import com.andariadar.newsapplication.api.NewsApi
+import com.andariadar.newsapplication.model.News
 import androidx.room.withTransaction
 import retrofit2.HttpException
 import java.io.IOException

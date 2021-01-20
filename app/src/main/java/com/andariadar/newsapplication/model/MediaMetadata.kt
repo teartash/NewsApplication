@@ -1,4 +1,4 @@
-package com.andariadar.newsapplication.model.entity
+package com.andariadar.newsapplication.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

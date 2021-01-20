@@ -6,10 +6,9 @@ import android.view.View
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.navigation.fragment.navArgs
 import com.andariadar.newsapplication.R
 import com.andariadar.newsapplication.databinding.FragmentFullNewsBinding
-import com.andariadar.newsapplication.viewmodel.NewsViewModel
+import com.andariadar.newsapplication.ui.NewsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_full_news.*
 

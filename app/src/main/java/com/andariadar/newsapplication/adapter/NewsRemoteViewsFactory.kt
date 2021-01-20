@@ -1,4 +1,4 @@
-package com.andariadar.newsapplication.ui.adapter
+package com.andariadar.newsapplication.adapter
 
 import android.content.Context
 import android.content.Intent
@@ -8,13 +8,12 @@ import android.widget.RemoteViews
 import android.widget.RemoteViewsService
 import com.andariadar.newsapplication.R
 import com.andariadar.newsapplication.db.NewsDatabase
-import com.andariadar.newsapplication.model.entity.News
+import com.andariadar.newsapplication.model.News
 import com.andariadar.newsapplication.widget.EXTRA_ITEM_URL
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
-import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.Target
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 

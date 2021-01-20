@@ -1,16 +1,13 @@
-package com.andariadar.newsapplication.ui.adapter
+package com.andariadar.newsapplication.adapter
 
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.AbsListView
-import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.andariadar.newsapplication.R
 import com.andariadar.newsapplication.databinding.ItemShortNewsBinding
-import com.andariadar.newsapplication.model.entity.News
+import com.andariadar.newsapplication.model.News
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 

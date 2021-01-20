@@ -4,8 +4,8 @@ import android.app.Application
 import androidx.room.Room
 import com.andariadar.newsapplication.constants.Constants.Companion.DATABASE_NAME
 import com.andariadar.newsapplication.db.NewsDatabase
-import com.andariadar.newsapplication.model.api.NewsApi
-import com.andariadar.newsapplication.model.dao.NewsDao
+import com.andariadar.newsapplication.api.NewsApi
+import com.andariadar.newsapplication.db.NewsDao
 import com.google.gson.FieldNamingPolicy
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder

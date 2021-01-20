@@ -1,6 +1,5 @@
-package com.andariadar.newsapplication.model.api
+package com.andariadar.newsapplication.api
 import com.andariadar.newsapplication.BuildConfig
-import com.andariadar.newsapplication.ResultList
 import retrofit2.http.GET
 import retrofit2.http.Path
 
