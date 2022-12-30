@@ -3,5 +3,5 @@
     <item android:state_checked="true"
         android:color="@color/colorWhite" />
     <item android:state_checked="false"
-        android:color="@color/colorWhite" />
+        android:color="@color/colorWhite" /> //Why is the same color used in both choices?
 </selector>
